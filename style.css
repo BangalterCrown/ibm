@@ -26,10 +26,11 @@ body {
 .nav{
   width: 100%;
   display: flex;
+  align-content: center;
   align-items: center;
   padding: 10px;
   gap: 5px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 nav{
@@ -41,8 +42,7 @@ nav{
   width: 99%;
   display: flex;
   position: fixed;
-  justify-content:space-between;
-  gap: 5px;
+  gap: 1px;
 }
 
 nav ul{
@@ -113,6 +113,11 @@ nav a:hover{
 
 .contacto_info img {
   width:25px;
+  margin-right: 10px;
+  float:left;
+}
+
+.logo_hup {
   margin-right: 10px;
   float:left;
 }
