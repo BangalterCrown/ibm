@@ -119,13 +119,14 @@ nav a:hover{
 
 .logo_hup {
   margin-right: 10px;
-  float:left;
+  float: left;
 }
 
 /* Estilado-Sobre mi */
 
 .container {
   display: flex;
+  padding-top: 1cm;
 }
 
 .sobre-mi {
@@ -453,6 +454,14 @@ button:hover {
     padding: none;
     margin: 0;
     margin-top: 0;
+  }
+
+  fieldset {
+      
+    padding: 20px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    width: 80%;
   }
 
   .footer{
