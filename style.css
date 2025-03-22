@@ -126,7 +126,7 @@ nav a:hover{
 
 .container {
   display: flex;
-  padding-top: 1cm;
+  padding-top: 1.5rem;
 }
 
 .sobre-mi {
@@ -429,7 +429,8 @@ button:hover {
 
   .container{
     flex-direction: column-reverse;
-    padding: 5%;
+    padding: 10%;
+    padding-top: 1.5rem;
   }
 
   .sobre-mi{
