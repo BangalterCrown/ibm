@@ -429,6 +429,7 @@ button:hover {
 
   .container{
     flex-direction: column-reverse;
+    padding-top: 3rem;
   }
 
   .sobre-mi{
