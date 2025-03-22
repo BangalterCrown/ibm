@@ -318,44 +318,45 @@ h2 {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
   border-radius: 3mm;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
   position: fixed;
-  /* padding: 30px; */
   visibility: hidden;
 }
 
 .popup img {
   padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .popup button {
   background-color: #fff;
   border: 3px solid var(--color-terciario);
-  color: #7600bc;
+  color: var(--color-terciario);
   display: block;
   border-radius: 6px;
   text-align: center;
-  margin: 50px;
+  margin: 50px 20px 50px 20px;
   padding: 10px;
   width: 4cm;
   font-size: 20px;
-  margin-left: 25%;
+  margin-left: 31%;
 }
 
 .popup button:hover {
-  background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  background-color: var(--color-terciario);
+  border: 2px solid var(--color-secundario);
+  color: var();
   display: block;
   font-weight: bolder;
   text-align: center;
   cursor: pointer;
-  margin-left: 25%;
+  margin-left: 31%;
 }
 
 /* Recommendation Form */
