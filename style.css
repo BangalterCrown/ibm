@@ -26,11 +26,10 @@ body {
 .nav{
   width: 100%;
   display: flex;
-  align-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   gap: 5px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 nav{
@@ -42,7 +41,8 @@ nav{
   width: 99%;
   display: flex;
   position: fixed;
-  gap: 1px;
+  justify-content:space-between;
+  gap: 5px;
 }
 
 nav ul{
