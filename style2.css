@@ -140,3 +140,62 @@
     background: #ababab;
     color: #fff;
 }
+
+@media (max-width: 1025px){
+    
+    .container {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content .name {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .item .content {
+        top: 15%;   
+        left: 7%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .content button {
+        display: none;
+    }
+
+    .content .des {
+        width: 375px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+        padding: 10px 25px 10px 25px;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+
+    .slide .item:nth-child(3) {
+        left: 31%;
+        top: 78%;
+    }
+
+    .slide .item:nth-child(4) {
+        left: calc(50% + 240px);
+        top: 78%;    
+    }
+
+    .slide .item:nth-child(5){
+        left: calc(50% + 480px);
+        top: 78%;
+    }
+
+    .slide .item:nth-child(n + 6){
+        left: calc(50% + 700px);
+        top: 78%;
+        opacity: 0;
+    }
+}
