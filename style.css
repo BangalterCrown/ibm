@@ -438,12 +438,11 @@ button:hover {
   }
 
   #sobre-mi h1{
-    font-size: 38px;
     margin-top: 50px;
   }
 
   #sobre-mi p {
-    font-size: 16px;
+    font-size: 20px;
     color: var(--color-footer);
     text-align: justify;
     font-weight: 600;
