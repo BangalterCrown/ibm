@@ -123,7 +123,7 @@ nav .menu-boton:hover{
   top: 0;
   right: 0;
   height: 100vh;
-  width: 250px;
+  width: 400px;
   z-index: 999;
   background-color: #131b3ae7;
   backdrop-filter: blur(10px);
@@ -465,8 +465,7 @@ button:hover {
     display: none;
   }
   .menu-boton{
-    display: block;
-    width: 40px;
+    display: block; 
   }
 
   .container{
@@ -474,6 +473,13 @@ button:hover {
     padding: 5rem 3rem 0rem 3rem;
   }
 
+  nav a{
+    font-size: 30px;
+  }
+  
+  nav a:hover{
+    font-size: 30px;
+  }
   .sobre-mi{
     margin: 1px;
     padding-right: 0px;
