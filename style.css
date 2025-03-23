@@ -466,6 +466,7 @@ button:hover {
   }
   .menu-boton{
     display: block;
+    width: 40px;
   }
 
   .container{
@@ -499,7 +500,7 @@ button:hover {
   }
   
   .logo_hup {
-    width: 200px;
+    width: 185px;
   }
 
   fieldset {
