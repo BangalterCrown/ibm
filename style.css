@@ -77,6 +77,47 @@ nav a:hover{
   font-weight: 600;
 }
 
+nav .close-boton{
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: var(--color-secundario);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav .close-boton:hover{
+  background-color: var(--color-terciario);
+  border-radius: 0 20px;
+  color: var(--color-terciario);
+  font-family: var(--fuente-krona);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav .menu-boton{
+  padding: 0 30px;
+  text-decoration: none;
+  align-items: center;
+  color: var(--color-secundario);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav .menu-boton:hover{
+  background-color: var(--color-terciario);
+  border-radius: 0 20px;
+  color: var(--color-terciario);
+  font-family: var(--fuente-krona);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu-boton{
+  display: none;
+}
+
 .sidebar{
   position: fixed;
   top: 0;
@@ -118,7 +159,6 @@ nav a:hover{
 }
 
 .logo_hup {
-  margin-right: 10px;
   float: left;
 }
 
@@ -415,11 +455,12 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
-.menu-boton{
-  display: none;
-}
 
 @media (max-width: 1025px){
+  nav {
+    width: 96%; 
+  }
+
   .hideOnMobile{
     display: none;
   }
@@ -455,6 +496,10 @@ button:hover {
     padding: none;
     margin: 0;
     margin-top: 0;
+  }
+  
+  .logo_hup {
+    width: 200px;
   }
 
   fieldset {
