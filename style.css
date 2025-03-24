@@ -159,6 +159,7 @@ nav .menu-boton:hover{
 }
 
 .logo_hup {
+  padding-top: 5px;
   float: left;
 }
 
@@ -516,7 +517,6 @@ button:hover {
   }
   
   .logo_hup {
-    padding-top: 5px;
     padding-left: 1cm;
     width: 185px;
   }
