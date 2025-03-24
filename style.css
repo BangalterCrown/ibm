@@ -516,6 +516,8 @@ button:hover {
   }
   
   .logo_hup {
+    padding-top: 5px;
+    padding-left: 1cm;
     width: 185px;
   }
 
