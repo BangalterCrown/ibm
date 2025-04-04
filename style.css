@@ -74,7 +74,8 @@ nav a:hover{
   color: var(--color-secundario);
   font-family: var(--fuente-krona);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 800;
+  text-decoration: underline;
 }
 
 nav .close-boton{
